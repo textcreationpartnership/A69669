@@ -1,0 +1,586 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A bank dialogue between Dr. H.C. and a country gentleman</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1696</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A69669</idno>
+            <idno type="STC">Wing B647</idno>
+            <idno type="STC">ESTC R32545</idno>
+            <idno type="EEBO-CITATION">99834880</idno>
+            <idno type="PROQUEST">99834880</idno>
+            <idno type="VID">39495</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A69669)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 39495)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1030:8, 1822:44)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A bank dialogue between Dr. H.C. and a country gentleman</title>
+               </titleStmt>
+               <extent>4 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1696]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A satire. H.C. is Hugh Chamberlen, a physician and financial speculator.</note>
+                  <note>Caption title.</note>
+                  <note>Imprint from Wing.</note>
+                  <note>Reproductions of the original in the British Library.</note>
+                  <note>Appears at reel 1030 and 1822 (same copy filmed twice).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Chamberlen, Hugh.</term>
+               <term>Credit --  England --  Early works to 1800.</term>
+               <term>Banks and banking --  England --  Early works to 1800.</term>
+               <term>Deposit banking --  Early works to 1800.</term>
+               <term>Land banks --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-06</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-06</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="dialogue">
+            <pb n="1" facs="tcp:39495:1" rendition="simple:additions"/>
+            <head>A <hi>BANK DIALOGUE</hi> between Dr. <hi>H. C.</hi> and a Country Gentleman.</head>
+            <sp>
+               <speaker>Doctor.</speaker>
+               <p>SIR, I am exhilarated to ſee you. Pray when came you to Town?</p>
+            </sp>
+            <sp>
+               <speaker>Gentleman.</speaker>
+               <p>But juſt now Doctor.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, are you not hugely pleaſed in the Country with my <hi>Land-Bank?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Your <hi>Bank</hi> Doctor; we hear there are a Par-Royal of <hi>Land-Banks</hi> ſetting up in <hi>London.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Piſh, thoſe which you call <hi>Land-Banks</hi> are not worth mentioning, mine is the only <hi>Bank</hi> of the World; and there<g ref="char:EOLhyphen"/>fore <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, that is to ſay, in contra<g ref="char:EOLhyphen"/>diſtinction to all other <hi>Banks,</hi> whenſo<g ref="char:EOLhyphen"/>ever the <hi>Land-Bank</hi> is mentioned, you are to underſtand my <hi>Land-Bank:</hi> for mark you, I am the firſt Perſon that ever ſet on Foot that excellent Notion of a <hi>Bank</hi> in <hi>England.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Pray Doctor, be ſparing of your Greek, elſe you will ſoon exhauſt your ſtore. But with your leave good Doctor, how come you to pretend to be the firſt Propoſer of a <hi>Bank</hi> in <hi>England?</hi> for now you put me in mind on't, I <hi>remember</hi>
+                  <note n="*" place="margin">
+                     <g ref="char:V">Ʋ</g>ſeful Re<g ref="char:EOLhyphen"/>flections on the brief Account of the Bank of <hi>England,</hi> pag. <hi>3.</hi>
+                  </note> you laid claim to the <hi>Bank</hi> of <hi>England</hi> as yours.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Why ſo it was, <hi>ſed tulit alter hono<g ref="char:EOLhyphen"/>rem,</hi> thoſe curſed Nebulons rob'd me of it. But I am reſolv'd to be even with them, and to propoſe to the Parliament that I may pay them off their twelve hundred thouſand Pounds.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>You'l then be even with them Doctor, upon my word; but where will you get Money to do it?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Get Money! it's no matter for that, I know how I'le do't Sir, let me tell you it is not manners to queſtion my Abilities; but do you mark, I will not only pay them off, but I will make good the loſs of all the clip'd Money in the Kingdom were it never ſo many Millions; there's a Touch for you!</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>A Touch Doctor, upon my word it's a bold ſtroke if you can perform it.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, you will be ſtill queſtioning what I can do, which I will not allow of; pray what is it that I can't do?</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Pardon me good Doctor, if I tell you, you would make an excellent Knight-Errant: But what think you Doctor, of thoſe other <hi>Land-Banks</hi> that are ſetting up?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Think of them, what ſhould I think of them, they are only writ after my Copy?</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Writ after your Copy, Doctor; they would make very bad Limners then, for they are no more like yours, than an Apple is like an Oiſter.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>No more they are not, nor muſt they expect to match my Original; when therefore I ſay they write after my Copy, my meaning is, that they have taken the Notion of giving a Credit upon Land from me.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Excuſe me, good Doctor, if I dif<g ref="char:EOLhyphen"/>fer from you. That<note n="*" place="margin">Every Mortgage is a Credit upon Land, and every time a Mort<g ref="char:EOLhyphen"/>gage is aſ<g ref="char:EOLhyphen"/>ſign'd, it paſſes in pai<g ref="char:EOLhyphen"/>ment for ſo much Mo<g ref="char:EOLhyphen"/>ney as it is aſſigned for.</note> Notion was in the World ſome hundreds of Years before you or they were Born; and therefore neither you nor they can pretend to be the Authors of it.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, I deny it, and I expect that ac<g ref="char:EOLhyphen"/>cording to the Rules of Argumentation, you prove your <hi>Theſis</hi> or Poſition, that I am not the firſt Author of that Notion.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>I hope you don't expect that we Country Gentlemen ſhould diſcourſe in Mood and Figure; nor is it (with humble Deference to your greater Judgment) ac<g ref="char:EOLhyphen"/>cording to the rules of Scholarſhip to put me upon proving a Negative. But not to waſte Time, pray, Doctor, inform me a little in your Notion, which you ſo magni<g ref="char:EOLhyphen"/>fy your ſelf for being the firſt Author of it.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, I ſhall endeavour to elucidate your Underſtanding. And firſt and for<g ref="char:EOLhyphen"/>moſt, I propoſe<note n="*" place="margin">Bank Di<g ref="char:EOLhyphen"/>alogue, <hi>P.3</hi>
+                  </note> that a Gentleman may ſettle 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 150 Years, to ſe<g ref="char:EOLhyphen"/>cure the Paiment of 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, for 100 Years. Is that a good Security or not? Pray give me a <hi>Categorical</hi> anſwer.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Yes, Doctor, none doubts but 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year good Freehold Land, is Se<g ref="char:EOLhyphen"/>curity for the Paiment of 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year out of it.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>And I hope 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 100 Years, is 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Yes queſtionleſs, 100 hundred Pounds, is 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>And I propoſe<note n="*" place="margin">
+                     <hi>Ibid.</hi> p. 3.</note> to iſſue out Tickets to 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> Value upon the aforeſaid Se<g ref="char:EOLhyphen"/>curity; there's a Notion for you.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>A Notion indeed, Doctor! but what Security, I pray, have thoſe who are to receive your Tickets in Paiment? for if your Fund be bad, your Tickets will not be current, and a 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year is not a Se<g ref="char:EOLhyphen"/>curity for 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>
+                  <note n="*" place="margin">Rod for the Fool's Back, <hi>p. 6.</hi>
+                  </note> I don't ſay it is, do I? I ſay they will have 22500 <abbr>
+                     <hi>l.</hi>
+                  </abbr> Security, for every 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> Tickets that will be delivered out, as I have often publiſhed in my printed Pa<g ref="char:EOLhyphen"/>pers.</p>
+            </sp>
+            <pb n="2" facs="tcp:39495:2"/>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Make out that Doctor, and you do your Work; for I do not find any more than 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> 
+                  <hi>per annum</hi> Security for 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>This is to have to do with ſuch dull Animals, whoſe thick Sculls will not per<g ref="char:EOLhyphen"/>mit my refined and ſubtile Notions to pe<g ref="char:EOLhyphen"/>netrate their Cerebrums. Why, Sir, have I not told you already, that 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year is to be ſettled for 150 Years?</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Yes, and what then?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Why multiply 150 by 150, and it makes 22500, and 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 100 Years I have told you is 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> 
+                  <note n="*" place="margin">
+                     <hi>Bank Di<g ref="char:EOLhyphen"/>alogue,</hi> p. 3.</note> So here is 22500 <abbr>
+                     <hi>l.</hi>
+                  </abbr> Security for 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and there<g ref="char:EOLhyphen"/>fore it is 22500 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and not 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, which is the Security for the 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and there lies the Myſtery.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>This is a Myſtery with a Witneſs, Doctor, but at this rate you make a part to be greater than the whole, and a Term to be more worth than the Fee; and accord<g ref="char:EOLhyphen"/>ing to your Notion 15 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year ſettled for a proportionable Term, may be Security for 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> for ſay you; 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for ever, is worth but 3000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and therefore is not a Security for 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> but 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 150 Years, comes to 22500 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and is a Security for 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> So 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 150 Years, is ſeven times and ½ more va<g ref="char:EOLhyphen"/>lue than 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for a Perpetuity.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, <hi>ad bene intelligendum recte di<g ref="char:EOLhyphen"/>ſlinguendum eſt;</hi> Sir, I ſay the 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year is but a conſequential Security; for as I have ſaid 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 150 Years, is Security for 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 100 Years; and 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 100 Years, comes to 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> 
+                  <hi>Ergo,</hi> 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for 150 Years, and not 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year Fee Simple, is Security for the 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Fee Simple! this is ſimple all o<g ref="char:EOLhyphen"/>ver; why,<note place="margin">'Tis abſurd to affi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>m, a Term of any Eſtate can be a Securi<g ref="char:EOLhyphen"/>ty, when the Fee thereof is not of ſo great a va<g ref="char:EOLhyphen"/>lue as the Sum ſe<g ref="char:EOLhyphen"/>cur<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d.</note> Doctor, the Security muſt be greater than the thing ſecured, or it is not a Security; and a Perpetuity muſt be granted to be more valuable than a Term in the ſame individual Eſtate; and yet you tell us, that the Fee is not worth above 3000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and value the Term at 22500 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and maintain that the Term and not the Fee, is to be Security for 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and this you ſay is a Myſtery upon which you ex<g ref="char:EOLhyphen"/>pect your Tickets to 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> value muſt paſs current as ready Money, becauſe there is Security given that it ſhall be all paid is 100 Years; whereas 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> payable 100 Years hence is not worth 5 <abbr>
+                     <hi>l.</hi>
+                  </abbr> Now this is ſuch a Notion, Doctor, that certainly none but your ſelf would ever have <hi>Mid<g ref="char:EOLhyphen"/>mif'd</hi> into the World; and therefore no doubt you may lay your claim to it as the firſt Contriver, for I believe none will go about to deprive you of the Ho<g ref="char:EOLhyphen"/>nour of it.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, but you do not underſtand the whole of my Propoſal, which I have lately alter'd; there will be ready Mo<g ref="char:EOLhyphen"/>ney for all ſuch who will have it in <hi>ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>cc<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e;</hi> and therefore that Objection of ſtaying 100 Years for their Money is out of Doors.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Now you ſay ſomething Doctor.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>I have propoſed<note n="*" place="margin">See the Doctor's laſt Propo<g ref="char:EOLhyphen"/>ſals.</note> then, that thoſe who ſettle their Eſtates, for every 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year they ſettle, to ſecure the Paiment of 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, ſhall pay in Money 400 <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> down, 300 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year hence, 200 <abbr>
+                     <hi>l.</hi>
+                  </abbr> two Years hence, 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> three Years hence, in all 1000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> in good hard Money; and they are to have Tickets to the value of 1000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> down, 1100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year hence, 1200 <abbr>
+                     <hi>l.</hi>
+                  </abbr> two Years hence, 1300 <abbr>
+                     <hi>l.</hi>
+                  </abbr> three Years hence, 1400 <abbr>
+                     <hi>l.</hi>
+                  </abbr> four Years hence, beſides 3000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> Tickets more to be imploy<g ref="char:EOLhyphen"/>ed in the Fiſhery, and 2000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> more to be divided between me and my Friends for the Management: ſo here is to be in all 11000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> Tickets to be given out, and there will be 1000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> in Money to circu<g ref="char:EOLhyphen"/>late them.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>This is a high touch indeed! but to what yearly value do you propoſe Eſtates ſhall be ſettled?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>I propoſe that ſeventy five thou<g ref="char:EOLhyphen"/>ſand Pounds a Year, ſhall be ſettled for 150 Years, for to ſecure the Paiment of fifty thouſand Pounds a Year, for 100 Years. Now there muſt be five hundred thouſand Pounds in Money paid in three Years time by the Subſcribers; and in four Years time there muſt be Tickets given out for five Millions five hundred thouſand Pounds.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>So then, Doctor, if I miſtake it not, you will have one hundred to cir<g ref="char:EOLhyphen"/>culate eleven hundred Pounds.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Yes, you are right.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Then, Doctor, without the Spi<g ref="char:EOLhyphen"/>rit of Prophecy; I foretel your <hi>Bank</hi> will be ſoon at an end.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Your reaſon for that, Sir.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>'Tis plain there will be but five hundred thouſand Pounds in Money, to pay Tickets to the value of five Milli<g ref="char:EOLhyphen"/>ons five hundred thouſand Pounds: and thoſe who have ſo little wit as to ſettle their Eſtates in ſuch a <hi>Bank,</hi> will deſerve to have their Eſtates begg'd, if they do not make a ſure Game on't; for to be ſure, firſt come firſt ſerv'd: and how ſimply will a Man look when he comes with his Tickets, and finds the Birds flown, his Money gone, and no Security remain<g ref="char:EOLhyphen"/>ing for his Money.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Pray, Sir, ſhow a little better breeding in your Expreſſions, for I have Perſons of the firſt Rank in the Kingdom concerned with me in my <hi>Bank.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Doctor, excuſe me if I queſtion the Verity of it, you are too apt to make uſe of great Mens names; and therefore
+<pb n="3" facs="tcp:39495:2"/>ſtill, Doctor, I ſay, your <hi>Bank</hi> muſt fail becauſe you have no Security.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>No Security, Sir! do you call ſe<g ref="char:EOLhyphen"/>venty five thouſand Pounds a Year, no Se<g ref="char:EOLhyphen"/>curity?</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Yes, Sir, I ſay it is not a Security for five Millions; it is only a Security that fifty thouſand Pounds a Year ſhall be paid for 100 Years, which for five Mil<g ref="char:EOLhyphen"/>lions in the whole, is but twenty Shillings every Year for each 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> So that he who pays in 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> to your <hi>Bank,</hi> will have a hopeful Bargain on it.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, you ſuppoſe that our Tickets will be preſently given out, and the Mo<g ref="char:EOLhyphen"/>ney due upon them called for; but we who are the Subſcribers will favour the <hi>Bank.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Favour, what do you talk of fa<g ref="char:EOLhyphen"/>vouring the <hi>Bank?</hi> we live in a ſharp Age wherein every one will favour himſelf, and will ſecure fourſcore Years purchaſe, for 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, if he can get it.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Ay, but we will make a Bargain among our ſelves, that we will not deli<g ref="char:EOLhyphen"/>ver out more Tickets than we have Mo<g ref="char:EOLhyphen"/>ney to anſwer.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>To what uſe will the <hi>Bank</hi> be then, if you give out no more Bills than what you have Money in <hi>Bank</hi> to pay? But pray, Doctor, what neceſſity was there for you to exceed your Fund, by iſſuing out 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> Tickets upon 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year? What, if but 10 or 15 Years inſtead of 100 Years Purchaſe, had been iſſued out upon Eſtates? is there not Land enough in <hi>England</hi> think you, to furniſh us with as much Credit as is needful on thoſe Terms? and would it not have been more Comprehenſive?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, my deſign is to make it pro<g ref="char:EOLhyphen"/>fitable to thoſe who are concerned in my <hi>Bank.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>To your ſelf you mean, good Doctor, for it is the 2000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> out of eve<g ref="char:EOLhyphen"/>ry 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, which you reſerve for Management, which was the Inducement: for think you, if I can help a Gentle<g ref="char:EOLhyphen"/>man to 100 Years Purchaſe, for a Rent-Charge of 100 Years, I ſhall deſerve 20 Years Purchaſe out of it for my Pains.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, what have you or any Man to do with my Gratuity? I ſhall not have it all to my ſelf; for I am to give conſide<g ref="char:EOLhyphen"/>rable Sums out of it to my Dependants, and to the <hi>Miniſters of State,</hi> and other Perſons of Quality, who are to be my <hi>head Officers,</hi> and who are all to have good Salaries which I muſt pay them out of it, as I have often publiſh'd in Print<note n="*" place="margin">Rod for the Fool's Back, <hi>pag. 12, 13,</hi>
+                  </note>; and therefore it will not come all into my Pocket.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>I know you have publiſh'd it in Print, and none certainly but your ſelf would have been ſo preſumptuous; for you ought to treat Perſons of ſuch Emi<g ref="char:EOLhyphen"/>nency with greater Reſpect, and not to inſinuate that they muſt come to you for Wages, as if they were your Journey-Men or Lackeys.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, what do you talk of that, <hi>Dulcis odor lucri ex Re qualibet:</hi> pray why may not they come to me, as well as to the Officers of the <hi>Exchequer?</hi> but <hi>ad rem, Quis niſi mentis inops oblatum reſpuet au<g ref="char:EOLhyphen"/>rum?</hi> you ſee I can bring good Authority for what I ſay, for I am old Dog at Latin Phraſes, as well as at <hi>Banks;</hi> and I am reſolved therefore you ſhall ſubſcribe your Eſtate in my <hi>Bank.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Doctor, I thank you, but muſt beg your Pardon if I do not engage my Eſtate with you, I know better things.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Know better? Sir, can you do bet<g ref="char:EOLhyphen"/>ter than to have 8000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> for a Rent-Charge of 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, for 100 Years, of which 3000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> imploy'd in the Fiſhery, will bring in 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year at leaſt, at 5 <abbr>
+                     <hi>l.</hi>
+                  </abbr> 
+                  <hi>per cent. per annum</hi> Profit; ſo you will have 50 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year coming in, more than what you have to pay, and have 5000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> more into the Bargain; is not this plain?</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Yes, Doctor, this is as plain as that 1 and 2 makes 5: but I will wait and ſee how your Buſineſs goes forward; and if it ſucceeds, I'le ſet up a <hi>Bank</hi> my ſelf, with a Fund ſettled out of my own E<g ref="char:EOLhyphen"/>ſtate; and therefore, Doctor, you muſt excuſe me if I don't come into your <hi>Bank;</hi> for I have 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, of as good Land as ever Crow flew over, upon this Fund I will furniſh his Majeſty with ſeven or eight Millions of Money every Year, for 100 Years together, at 3 <abbr>
+                     <hi>l.</hi>
+                  </abbr> 
+                  <hi>per cent per an<g ref="char:EOLhyphen"/>num</hi> Intereſt: and if I do this, I hope I ſhall merit the countenance of Authori<g ref="char:EOLhyphen"/>ty.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Sir, you ſeem to be Delirious, I muſt ſcower your Kettle with a Doſe of <hi>Crocus Metallorum.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>No, Doctor, I am no more De<g ref="char:EOLhyphen"/>lirious than your <hi>Worſhip,</hi> for I go upon your own Topick; and if you can per<g ref="char:EOLhyphen"/>form what you ſay, I am ſure I cannot fail of doing what I have propoſed.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Nay, Sir, I know you have a no<g ref="char:EOLhyphen"/>table Head-piece of your own, and a Child may ſee a great Way ſtanding upon a Giant's Shoulders; and you being let into my Notions, for ought I know, you may make Improvements upon them; as we ſay, <hi>Facile eſt Inventis addere;</hi> I fancy I ſmell you out: but pray let me know how you intend to manage it, and if I like your Project you ſhall be my Partner.</p>
+            </sp>
+            <sp>
+               <speaker>Gent.</speaker>
+               <p>Doctor, I know you were always for great Enterprizes, and love to talk great of <hi>thouſands of Millions;</hi> and there<g ref="char:EOLhyphen"/>fore
+<pb facs="tcp:39495:3"/>upon your Promiſe that we ſhall be Partners together, I will tell you what Courſe I intend to take. You have well obſerved that the 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, to be ſettled for the Paiment of 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, for 100 Years, is not to be the Security for the 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> but only that the 10000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> ſhall be paid in 100 Years, by 100 An<g ref="char:EOLhyphen"/>nual Paiments. Now, Doctor, if that Notion will go down, mine muſt; for mine is only an Improvement upon your Notion; for I having an Eſtate of 150 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year,<note n="*" place="margin">
+                     <hi>150 <abbr>l.</abbr>
+                     </hi> a Year is as good a Se<g ref="char:EOLhyphen"/>curity for the paiment of <hi>100</hi> 
+                     <abbr>l.</abbr> a Year for <hi>1000</hi> Years, as it is for <hi>100</hi> Years.</note> I will ſettle it for the Paiment of 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, for 1000 Years, which comes to one hundred thouſand Pounds; with this one hundred thouſand Pounds; I will buy five thouſand Pounds a Year, at 20 Years Purchaſe; this I will ſettle a<g ref="char:EOLhyphen"/>gain to ſecure the Paiment of three thou<g ref="char:EOLhyphen"/>ſand three hundred Pounds a Year, for 1000 Years, which will advance a Credit of three Millions three hundred thou<g ref="char:EOLhyphen"/>ſand Pounds; with this again I'le pur<g ref="char:EOLhyphen"/>chaſe one hundred ſixty five thouſand Pound a Year, and advance a proportio<g ref="char:EOLhyphen"/>nable Credit of one hundred and ten Mil<g ref="char:EOLhyphen"/>lions; and this <hi>I will do, ad infinitum,</hi> (as the <hi>Adepts</hi> or <hi>Virtuoſi</hi> augment Gold and Silver with the <hi>Powder of Projection</hi>) till I have got all the Land of <hi>England</hi> in<g ref="char:EOLhyphen"/>to my Poſſeſſion; and then my annual In<g ref="char:EOLhyphen"/>come will maintain the War againſt <hi>France,</hi> without ſinking a Penny of the Principal, or haraſſing the Subject with Taxes; what ſay you to that, Doctor?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Ay, Sir, you ſtole this Notion from me, and I'le maintain it's Practicable; for ſome Years ſince I propoſed<note n="*" place="margin">A Propoſal made by the Doctor ſome Years ago, at one of his publick Meetings, where ſeve<g ref="char:EOLhyphen"/>ral worthy Perſons were pre<g ref="char:EOLhyphen"/>ſent, who were ſo a<g ref="char:EOLhyphen"/>mazed at the extra<g ref="char:EOLhyphen"/>vagancy of his Propo<g ref="char:EOLhyphen"/>ſal, that they never came near him more.</note> to raiſe a thouſand Millions, but it being put to the Vote at one of our Weekly Meet<g ref="char:EOLhyphen"/>ings, it was unhappily carried againſt me, which marr'd the nobleſt Deſign that ever was laid; for I fully deter<g ref="char:EOLhyphen"/>mined to have built 100 Firſt Rate Men of War, and <hi>2d, 3d,</hi> 4th and 5th Rates in Proportion; and had my advice been then taken, the French King had never arriv'd to his preſent Grandeur: But it may be ſaid of us, <hi>Sero ſapiunt Angli; anglicè,</hi> when the Steed is ſtoln, we are for ſhutting the Stable-Door. But pray mention not a word of this Notion, but let you and I meet together two or three times in a Week in my <hi>Cloſet,</hi> to concert this Af<g ref="char:EOLhyphen"/>fair. But at preſent I moſt humbly beg your excuſe, that I cannot ſtay with you any longer, having appointed a Meeting with my <hi>Bank</hi> Pupils this Evening, and the Hour is come.</p>
+            </sp>
+            <pb facs="tcp:39495:3"/>
+         </div>
+      </body>
+   </text>
+</TEI>
